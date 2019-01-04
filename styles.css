@@ -10,3 +10,43 @@
 #navbarSupportedContent {
    
 }
+
+.cart {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.carousel-item {
+    background: #f6f6f6;
+}
+.carousel-caption {
+    margin-bottom: 200px;
+}
+
+.car-img {
+
+    padding-left: 120px;
+}
+
+.carousel-control-prev {
+    color:red;
+}
+
+.secondary-link {
+    color: #9b9b9b;
+}
+
+.controls {
+    color:red;
+}
+
+footer {
+    margin: 0;
+    padding: 100px;
+    background: #333;
+}
+
+footer p {
+    margin: 0;
+    padding:0;
+}
