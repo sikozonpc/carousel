@@ -1,3 +1,6 @@
+:root {
+    --primary: rgb(14, 170, 14);
+}
 
 /* Navbar */
 .selected {
@@ -10,6 +13,7 @@
 #navbarSupportedContent {
    
 }
+
 
 .cart {
     padding-left: 10px;
@@ -40,10 +44,26 @@
     color:red;
 }
 
+.card{
+    text-decoration: none !important;
+    color: #333;
+    margin: 10px;
+}
+
+.card h5 {
+    color: var(--primary);
+}
+
+.card:hover {
+    color: var(--primary);
+
+}
+
 footer {
     margin: 0;
     padding: 100px;
     background: #333;
+    color: #fff;
 }
 
 footer p {
